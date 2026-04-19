@@ -1,0 +1,9 @@
+{
+  "DataSources": [
+    {
+      "ResourceID": "signaloid-cloud-storage:/usr_3a3bbd8d9d804e0c8ef1e664b3fb255a",
+      "ResourceType": "SignaloidCloudStorage",
+      "Location": "sd0"
+    }
+  ]
+}

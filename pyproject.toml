@@ -1,0 +1,17 @@
+[project]
+name = "Signaloid-Demo-WebPerformance-ProbabilisticLighthouseScoring"
+version = "0.1.0"
+description = "Probabilistic evaluation of web performance: capturing distributions from N Lighthouse audits to propagate uncertainty using the Signaloid C0 platform"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "tqdm>=4.67.3"
+]
+
+[project.scripts]
+run-audit = "scripts.run_audit:main"
+extract = "scripts.extract:main"
+
+[tool.uv]
+managed = true
+package = false

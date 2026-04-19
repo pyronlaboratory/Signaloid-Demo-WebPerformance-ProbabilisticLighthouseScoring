@@ -1,0 +1,18 @@
+# C/C++ Build Artifacts
+*.o
+*.out
+*.exe
+.signaloid/
+
+# Lighthouse data
+reports/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System Files
+.DS_Store
+Thumbs.db
